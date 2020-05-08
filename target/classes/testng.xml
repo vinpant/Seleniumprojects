@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Banking Page Test Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.bank.qa.ExtentReportListener.ExtentReportListener" />
+	</listeners>
+
+	<test name="Banking App Test Cases">
+		<classes>
+			<class name="com.bank.qa.testcases.LoginPageTest"></class>
+			<class name="com.bank.qa.testcases.HomePageTest"></class>
+			
+
+		</classes>
+	</test>
+</suite>
